@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "hc80f0dc_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "sqlite >=3.28.0,<4.0a0"
+  ],
+  "features": "",
+  "fn": "proj4-6.1.1-hc80f0dc_1.tar.bz2",
+  "license": "MIT",
+  "md5": "ab0c4819c88fb888b525e6b550a4df85",
+  "name": "proj4",
+  "platform": "linux",
+  "sha256": "54ed5f901bbf10f96f99691dc034faf9f04be88376c7de3eaaa242ef87010fea",
+  "size": 10302071,
+  "subdir": "linux-64",
+  "timestamp": 1562184517052,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/proj4-6.1.1-hc80f0dc_1.tar.bz2",
+  "version": "6.1.1"
+}

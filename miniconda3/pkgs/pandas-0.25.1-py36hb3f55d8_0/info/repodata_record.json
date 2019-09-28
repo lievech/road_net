@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py36hb3f55d8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil >=2.6.1",
+    "pytz >=2017.2"
+  ],
+  "features": "",
+  "fn": "pandas-0.25.1-py36hb3f55d8_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "13e422a5059e9527458cbaabae4bec1d",
+  "name": "pandas",
+  "platform": "linux",
+  "sha256": "573aa9fa9ec417603f5240408cc351a5bb9a7391ddbdd85e0a951eb31a2656ea",
+  "size": 11986181,
+  "subdir": "linux-64",
+  "timestamp": 1566496729565,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-0.25.1-py36hb3f55d8_0.tar.bz2",
+  "version": "0.25.1"
+}

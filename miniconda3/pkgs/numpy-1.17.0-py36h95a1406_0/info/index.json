@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py36h95a1406_0",
+  "build_number": 0,
+  "depends": [
+    "libblas >=3.8.0,<4.0a0",
+    "libcblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=7.3.0",
+    "liblapack >=3.8.0,<3.9.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "numpy",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1564664683252,
+  "version": "1.17.0"
+}

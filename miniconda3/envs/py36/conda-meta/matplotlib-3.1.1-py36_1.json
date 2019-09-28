@@ -1,0 +1,36 @@
+{
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base 3.1.1 py36he7580a8_1",
+    "pyqt",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/lhn/miniconda3/pkgs/matplotlib-3.1.1-py36_1",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.1.1-py36_1.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/lhn/miniconda3/pkgs/matplotlib-3.1.1-py36_1",
+    "type": 1
+  },
+  "md5": "8400b1366e88c222dec34d94ef763ac4",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/home/lhn/miniconda3/pkgs/matplotlib-3.1.1-py36_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "ee422a4db2a69d3bf740dd2735beca114c5c72d815b261f70966068f4c9fb4fe",
+  "size": 6154,
+  "subdir": "linux-64",
+  "timestamp": 1563990187849,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/matplotlib-3.1.1-py36_1.tar.bz2",
+  "version": "3.1.1"
+}

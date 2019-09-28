@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 21 17:00:40 2019
+# ------------------------------------------------
+
+package:
+    name: pyproj
+    version: 2.3.0
+source:
+    sha256: 9c50988827076c685ebaf384b7a6993e193c026aad181b6a579f5a3f6915a37d
+    url: https://pypi.io/packages/source/p/pyproj/pyproj-2.3.0.tar.gz
+build:
+    number: '0'
+    script:
+        - /home/conda/feedstock_root/build_artifacts/pyproj_1566406936260/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+            -m pip install . --no-deps -vv
+    string: py36h2fd02e8_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_8
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_8
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.6.16 hecc5488_0
+        - certifi 2019.6.16 py36_1
+        - cython 0.29.13 py36he1b5a44_0
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1c h516909a_0
+        - pip 19.2.2 py36_0
+        - proj4 6.1.1 hc80f0dc_1
+        - python 3.6.7 h357f687_1005
+        - readline 8.0 hf8c457e_0
+        - setuptools 41.2.0 py36_0
+        - sqlite 3.29.0 hcee41ef_0
+        - tk 8.6.9 hed695b0_1002
+        - wheel 0.33.6 py36_0
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1005
+    run:
+        - libgcc-ng >=7.3.0
+        - proj4 >=6.1.1,<6.1.2.0a0
+        - proj4 >=6.1.1,<6.1.2.0a0
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - pyproj
+about:
+    home: https://github.com/pyproj4/pyproj
+    license: OSI
+    license_file: LICENSE
+    summary: Python interface to PROJ.4 library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - ocefpaf

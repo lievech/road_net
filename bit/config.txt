@@ -1,0 +1,9 @@
+创建时间：Sun Aug 25 21:08:34 2019
+访问时间：Sun Aug 25 21:08:34 2019
+KML文件MD5：5cb21e0586f9c04931e834333e2b7b96
+KML文件路径：/home/lhn/桌面/bit/path1.kml
+
+**********************************
+拓扑路网生成UI
+作者：NobodyWu
+邮箱：mengze.bit@gmail.com

@@ -1,0 +1,55 @@
+{
+  "build": "py37_11",
+  "build_number": 11,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libarchive",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/lhn/miniconda3/pkgs/python-libarchive-c-2.8-py37_11",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/libarchive/__init__.py",
+    "lib/python3.7/site-packages/libarchive/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/entry.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/exception.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/extract.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/ffi.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/flags.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/read.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/__pycache__/write.cpython-37.pyc",
+    "lib/python3.7/site-packages/libarchive/entry.py",
+    "lib/python3.7/site-packages/libarchive/exception.py",
+    "lib/python3.7/site-packages/libarchive/extract.py",
+    "lib/python3.7/site-packages/libarchive/ffi.py",
+    "lib/python3.7/site-packages/libarchive/flags.py",
+    "lib/python3.7/site-packages/libarchive/read.py",
+    "lib/python3.7/site-packages/libarchive/write.py",
+    "lib/python3.7/site-packages/libarchive_c-2.8-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/libarchive_c-2.8-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/libarchive_c-2.8-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/libarchive_c-2.8-py3.7.egg-info/top_level.txt"
+  ],
+  "fn": "python-libarchive-c-2.8-py37_11.tar.bz2",
+  "license": "CC0-1.0",
+  "link": {
+    "source": "/home/lhn/miniconda3/pkgs/python-libarchive-c-2.8-py37_11",
+    "type": 1
+  },
+  "md5": "91b7b59fa152c864114f9e79422e67b5",
+  "name": "python-libarchive-c",
+  "package_tarball_full_path": "/home/lhn/miniconda3/pkgs/python-libarchive-c-2.8-py37_11.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "python-libarchive-c==2.8=py37_11",
+  "sha256": "691acad792a1d592f1d7dcaa587e9e78c1ce9ddaa289193065a4456c0adc2b73",
+  "size": 23266,
+  "subdir": "linux-64",
+  "timestamp": 1563379109593,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-libarchive-c-2.8-py37_11.tar.bz2",
+  "version": "2.8"
+}

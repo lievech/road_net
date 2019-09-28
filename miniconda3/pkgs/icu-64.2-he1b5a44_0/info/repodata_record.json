@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "he1b5a44_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "icu-64.2-he1b5a44_0.tar.bz2",
+  "license": "MIT",
+  "md5": "bcb7e85c8d9da34fd78dd4ee8ac098eb",
+  "name": "icu",
+  "platform": "linux",
+  "sha256": "b2ecd7dda84e775332ce24e94ca6de50084b81131e2ec865b1870a2b227b4a3b",
+  "size": 13172455,
+  "subdir": "linux-64",
+  "timestamp": 1563372464348,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/icu-64.2-he1b5a44_0.tar.bz2",
+  "version": "64.2"
+}

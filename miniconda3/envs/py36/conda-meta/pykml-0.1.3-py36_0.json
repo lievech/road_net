@@ -1,0 +1,214 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "lxml >=2.2.6",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/lhn/miniconda3/pkgs/pykml-0.1.3-py36_0",
+  "features": "",
+  "files": [
+    "bin/csv2kml",
+    "bin/kml2pykml",
+    "bin/validate_kml",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pykml/__init__.py",
+    "lib/python3.6/site-packages/pykml/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/__pycache__/helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/factory.py",
+    "lib/python3.6/site-packages/pykml/helpers.py",
+    "lib/python3.6/site-packages/pykml/parser.py",
+    "lib/python3.6/site-packages/pykml/schemas/atom-author-link.xsd",
+    "lib/python3.6/site-packages/pykml/schemas/kml22gx.xsd",
+    "lib/python3.6/site-packages/pykml/schemas/ogckml22.xsd",
+    "lib/python3.6/site-packages/pykml/schemas/xAL.xsd",
+    "lib/python3.6/site-packages/pykml/test/__init__.py",
+    "lib/python3.6/site-packages/pykml/test/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/test/__pycache__/test_factory.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/test/__pycache__/test_helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/test/__pycache__/test_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/pykml/test/test_factory.py",
+    "lib/python3.6/site-packages/pykml/test/test_helpers.py",
+    "lib/python3.6/site-packages/pykml/test/test_parser.py",
+    "lib/python3.6/site-packages/pykml/test/test_util.py",
+    "lib/python3.6/site-packages/pykml/test/testfiles/google_kml_developers_guide/complete_tour_example.kml",
+    "lib/python3.6/site-packages/pykml/test/testfiles/google_kml_tutorial/using_the_cdata_element.kml",
+    "lib/python3.6/site-packages/pykml/test/testfiles/simple_file_with_comments.kml",
+    "lib/python3.6/site-packages/pykml/util.py"
+  ],
+  "fn": "pykml-0.1.3-py36_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/lhn/miniconda3/pkgs/pykml-0.1.3-py36_0",
+    "type": 1
+  },
+  "md5": "87a40805fda725766e0ba1a6cb4dae01",
+  "name": "pykml",
+  "package_tarball_full_path": "/home/lhn/miniconda3/pkgs/pykml-0.1.3-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/csv2kml",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "51b757d3bb50b09adc5d79dde93a42c4776f816a0dd0d5ca8f0f56226d4b1382"
+      },
+      {
+        "_path": "bin/kml2pykml",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "91912c20453d27abaa573777c1cb4d039f649097ec99a5bceed62225cc109695"
+      },
+      {
+        "_path": "bin/validate_kml",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0dbdaa38c278de39c86b7552fdcc8d84a55f54f2cd772d0136f136a2dc30d16d"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml-0.1.3-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/__pycache__/helpers.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/__pycache__/parser.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/factory.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/helpers.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/parser.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/schemas/atom-author-link.xsd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/schemas/kml22gx.xsd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/schemas/ogckml22.xsd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/schemas/xAL.xsd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/__pycache__/test_factory.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/__pycache__/test_helpers.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/__pycache__/test_util.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/test_factory.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/test_helpers.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/test_parser.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/test_util.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/testfiles/google_kml_developers_guide/complete_tour_example.kml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/testfiles/google_kml_tutorial/using_the_cdata_element.kml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/test/testfiles/simple_file_with_comments.kml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pykml/util.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pykml",
+  "sha256": "82c11f9fbfa3c4602a696d98cf87e65739c95113a9cee366e4ade9a5f566cf42",
+  "size": 40792,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pykml-0.1.3-py36_0.tar.bz2",
+  "version": "0.1.3"
+}

@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "six-1.12.0-py36_1000.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "767cba965111006cc8760bd9ab749d19",
+  "name": "six",
+  "platform": "linux",
+  "sha256": "b097d421f4e2e66c89c3d550df6fd12b3752e5d4438b60ddc7cfb9a7966efcbb",
+  "size": 22057,
+  "subdir": "linux-64",
+  "timestamp": 1544443066204,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/six-1.12.0-py36_1000.tar.bz2",
+  "version": "1.12.0"
+}

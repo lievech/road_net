@@ -1,0 +1,14 @@
+{
+  "c_compiler": "gcc",
+  "openssl": "1.1.1",
+  "xz": "5",
+  "cxx_compiler_version": "7.3.0",
+  "zlib": "1.2",
+  "sqlite": "3",
+  "libffi": "3.2",
+  "bzip2": "1.0",
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.10.sdk",
+  "tk": "8.6",
+  "cxx_compiler": "gxx",
+  "c_compiler_version": "7.3.0"
+}

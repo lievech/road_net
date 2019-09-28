@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "lxml >=2.2.6",
+    "python 3.6*"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "pykml",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "version": "0.1.3"
+}

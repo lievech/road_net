@@ -1,0 +1,42 @@
+{% set version = "2.3.0" %}
+
+package:
+  name: pyproj
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/p/pyproj/pyproj-{{ version }}.tar.gz
+  sha256: 9c50988827076c685ebaf384b7a6993e193c026aad181b6a579f5a3f6915a37d
+
+build:
+  number: 0
+  skip: True  # [py<35]
+  script:
+    - "{{ PYTHON }} -m pip install . --no-deps -vv"
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - cython
+    - proj4
+  run:
+    - python
+    - proj4
+
+test:
+  imports:
+    - pyproj
+
+about:
+  home: https://github.com/pyproj4/pyproj
+  license: OSI
+  license_file: LICENSE
+  summary: 'Python interface to PROJ.4 library'
+
+extra:
+  recipe-maintainers:
+    - mingwandroid
+    - ocefpaf

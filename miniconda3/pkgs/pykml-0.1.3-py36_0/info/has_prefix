@@ -1,0 +1,3 @@
+/opt/anaconda1anaconda2anaconda3 text bin/csv2kml
+/opt/anaconda1anaconda2anaconda3 text bin/kml2pykml
+/opt/anaconda1anaconda2anaconda3 text bin/validate_kml

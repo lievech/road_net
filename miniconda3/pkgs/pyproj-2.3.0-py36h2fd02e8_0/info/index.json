@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py36h2fd02e8_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "proj4 >=6.1.1,<6.1.2.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "OSI",
+  "name": "pyproj",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1566407297998,
+  "version": "2.3.0"
+}

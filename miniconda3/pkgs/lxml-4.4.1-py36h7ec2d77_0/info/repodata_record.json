@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py36h7ec2d77_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libxml2 >=2.9.9,<2.10.0a0",
+    "libxslt >=1.1.32,<2.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "lxml-4.4.1-py36h7ec2d77_0.tar.bz2",
+  "license": "BSD 3-Clause, GPL-2.0, ZPL-2.0, and ElementTree",
+  "md5": "dd83cb7c23d37f4f07aa484ef4b2d5ce",
+  "name": "lxml",
+  "platform": "linux",
+  "sha256": "cc160fbaa27772c5c79bc544eeeddd6f10867bc8f2d8027951008fb989d73dd9",
+  "size": 1625723,
+  "subdir": "linux-64",
+  "timestamp": 1565529020093,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lxml-4.4.1-py36h7ec2d77_0.tar.bz2",
+  "version": "4.4.1"
+}

@@ -1,0 +1,11 @@
+prefix=/home/lhn/miniconda3/envs/py36
+exec_prefix=/home/lhn/miniconda3/envs/py36
+libdir=/home/lhn/miniconda3/envs/py36/lib
+includedir=/home/lhn/miniconda3/envs/py36/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

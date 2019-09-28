@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hc80f0dc_1",
+  "build_number": 1,
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "sqlite >=3.28.0,<4.0a0"
+  ],
+  "license": "MIT",
+  "name": "proj4",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1562184517052,
+  "version": "6.1.1"
+}

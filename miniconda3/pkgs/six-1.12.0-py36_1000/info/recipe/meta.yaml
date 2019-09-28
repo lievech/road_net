@@ -1,0 +1,63 @@
+# This file created by conda-build 3.17.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Dec 10 11:54:13 2018
+# ------------------------------------------------
+
+package:
+    name: six
+    version: 1.12.0
+source:
+    sha256: d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73
+    url: https://pypi.io/packages/source/s/six/six-1.12.0.tar.gz
+build:
+    number: '1000'
+    script: /home/conda/feedstock_root/build_artifacts/six_1544443045877/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py36_1000
+requirements:
+    host:
+        - ca-certificates 2018.11.29 ha4d7672_0
+        - certifi 2018.11.29 py36_1000
+        - libffi 3.2.1 hfc679d8_5
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2p h470a237_1
+        - pip 18.1 py36_1000
+        - python 3.6.7 h5001a0f_1
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.6.2 py36_0
+        - sqlite 3.26.0 hb1c47c0_0
+        - tk 8.6.9 ha92aebf_0
+        - wheel 0.32.3 py36_0
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - six
+about:
+    description: 'Six provides simple utilities for wrapping over differences between
+
+        Python 2 and Python 3. It is intended to support codebases that work on
+
+        both Python 2 and 3 without modification. six consists of only one Python
+
+        file, so it is painless to copy into a project.
+
+        '
+    dev_url: https://github.com/benjaminp/six
+    doc_url: http://pythonhosted.org/six/
+    home: http://pypi.python.org/pypi/six/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Python 2 and 3 compatibility utilities
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf

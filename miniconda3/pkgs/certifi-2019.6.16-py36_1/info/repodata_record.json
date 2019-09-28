@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2019.6.16-py36_1.tar.bz2",
+  "license": "ISC",
+  "md5": "259a46d098a931bcf5dac66a85173234",
+  "name": "certifi",
+  "platform": "linux",
+  "sha256": "15651e8c96f3c22df2590a1cd0ab39d53638ee700ed80ca5351e607118cacf83",
+  "size": 152688,
+  "subdir": "linux-64",
+  "timestamp": 1563281493043,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/certifi-2019.6.16-py36_1.tar.bz2",
+  "version": "2019.6.16"
+}

@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/home/lhn/miniconda3
+libdir=/home/lhn/miniconda3/lib
+includedir=/home/lhn/miniconda3/include
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.8.1
+Libs: -L/home/lhn/miniconda3/lib -llz4
+Cflags: -I/home/lhn/miniconda3/include

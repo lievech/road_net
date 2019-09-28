@@ -1,0 +1,64 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Jul  3 19:57:05 2019
+# ------------------------------------------------
+
+package:
+    name: proj4
+    version: 6.1.1
+source:
+    -   sha256: 5cf0a2360a28b5d724c53edbb87f3f3b14fd96001265411ac4e56f369e2d503f
+        url: http://download.osgeo.org/proj/proj-6.1.1.tar.gz
+    -   folder: data
+        sha256: 3ff6618a0acc9f0b9b4f6a62e7ff0f7bf538fb4f74de47ad04da1317408fcc15
+        url: http://download.osgeo.org/proj/proj-datumgrid-1.8.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - proj4 >=6.1.1,<6.1.2.0a0
+    string: hc80f0dc_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_7
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_7
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_7
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - make 4.2.1 h14c3975_2004
+        - pkg-config 0.29.2 h14c3975_1005
+    host:
+        - _libgcc_mutex 0.1 main
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - readline 8.0 hf8c457e_0
+        - sqlite 3.28.0 hcee41ef_1
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+        - sqlite >=3.28.0,<4.0a0
+        - sqlite >=3.28.0,<4.0a0
+test:
+    commands:
+        - test -f $PREFIX/share/proj/conus
+        - echo -105 40 | proj +proj=utm +zone=13 +ellps=WGS84
+        - echo -117 30 | cs2cs +proj=latlong +datum=NAD27 +to +proj=latlong +datum=NAD83
+        - echo -105 40 | cs2cs +init=epsg:4326 +to +init=epsg:2975
+about:
+    home: https://proj.org/
+    license: MIT
+    license_file: COPYING
+    summary: Cartographic Projections and Coordinate Transformations Library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - pelson
+        - snowman2
+        - xylar

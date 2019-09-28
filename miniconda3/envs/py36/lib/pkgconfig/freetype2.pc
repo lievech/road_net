@@ -1,0 +1,14 @@
+prefix=/home/lhn/miniconda3/envs/py36
+exec_prefix=/home/lhn/miniconda3/envs/py36
+libdir=/home/lhn/miniconda3/envs/py36/lib
+includedir=/home/lhn/miniconda3/envs/py36/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.0.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/home/lhn/miniconda3/envs/py36/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

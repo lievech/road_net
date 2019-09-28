@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.09",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "setuptools-41.0.1-py36_0.conda",
+  "legacy_bz2_md5": "5891cd8004849a73cd2dc9214330fa68",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "705f3a5f98b5226c03f02e944f4a40b0",
+  "name": "setuptools",
+  "platform": "linux",
+  "sha256": "a4c5843983dc83cf68a97f787c196b32f31d825a0cec97e4e64140b8198cfc51",
+  "size": 517612,
+  "subdir": "linux-64",
+  "timestamp": 1556550471822,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/setuptools-41.0.1-py36_0.conda",
+  "version": "41.0.1"
+}
